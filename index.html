@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <head>
+	<meta charset="UTF-8">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Silent Sunset - A sound installation</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+
+
+	<style>
+/* Global Reset */
+* {
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to top, #060c41,#FA4536 ,#FD5E53);
+    text-align:center;
+    overflow-wrap: break-word;
+    color:#fff;
+    font-family: 'Jost', sans-serif;
+    height:100vh;
+}
+h3{
+    text-shadow:1px 1px 1px #fff;
+}
+/* Start  styling the page */
+.container-audio {
+    width: 66%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #444;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.container-body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+audio {
+  width:100%;
+}
+
+#frame {
+text-align: center;   
+padding: 50px;
+overflow: auto;
+}
+	</style>
+
+</head>
+<body>
+<!-- Called of font style  file -->
+
+
+    
+<div id="frame">
+    <h2> Silent Sunset <br>A sound installation </h2>
+The soundscapes that you are about to hear
+are captured from or modulated by the environment.
+Additional sounds come from your activity as you explore the space.
+Hence we encourage you to interact with the microphone zones
+and <br>co-create the performance.
+
+Wear both earphones, turn the volume up and enjoy the experience.
+    
+</div>
+<div calss="container-body" id="container-body">
+    <div class="container-audio">
+        <audio controls>
+                   <source src="https://sunset.sound.codes:8000/radio.mp3" type="audio/mpeg"">
+                   Your browser dose not Support the audio Tag
+               </audio>
+    </div>
+         </div>
+
+</body>
+</html>
+
